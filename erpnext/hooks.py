@@ -1,14 +1,14 @@
 from frappe import _
 
-app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_name = "erp"
+app_title = "ERP"
+app_publisher = "DeveloperSamay"
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "info@erpnext.com"
+app_email = "contact@samay.dev"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = "https://github.com/neilkerman/erpnext"
 app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
 
 
@@ -80,7 +80,7 @@ website_generators = ["Item Group", "Item", "BOM", "Sales Partner",
 
 website_context = {
 	"favicon": "/assets/erpnext/images/erpnext-favicon.svg",
-	"splash_image": "/assets/erpnext/images/erpnext-logo.svg"
+	"splash_image": "/assets/erpnext/images/devsamay-logo.svg"
 }
 
 website_route_rules = [
@@ -400,7 +400,7 @@ scheduler_events = {
 	]
 }
 
-email_brand_image = "assets/erpnext/images/erpnext-logo.jpg"
+email_brand_image = "assets/erpnext/images/erpnext-logo.png"
 
 default_mail_footer = """
 	<span>
